@@ -154,18 +154,53 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 651984348}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: bfdfffff-415d-44b4-ae0b-aa62dcad0bd9
     m_ActionName: Gameplay/Move[/Keyboard/a,/Keyboard/d,/Keyboard/leftArrow,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 651984348}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Jump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: d2934e22-72df-4206-899f-d0386b1d8a14
     m_ActionName: Gameplay/Jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 833725492}
+  m_Camera: {fileID: 0}
+--- !u!114 &651984348 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6354880716108241707, guid: ddc34880a02e3864994a2d7c9936d620, type: 3}
+  m_PrefabInstance: {fileID: 9025954916981485316}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651984346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499cce65235f83b4c9b2551ee92eb15f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &833725490
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +348,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6354880716108241707, guid: ddc34880a02e3864994a2d7c9936d620, type: 3}
+      propertyPath: maxSpeed
+      value: 1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: -6354880716108241707, guid: ddc34880a02e3864994a2d7c9936d620, type: 3}
+      propertyPath: moveSpeed
+      value: 1.18
+      objectReference: {fileID: 0}
     - target: {fileID: 9025954915397303481, guid: ddc34880a02e3864994a2d7c9936d620, type: 3}
       propertyPath: m_Name
       value: Player
