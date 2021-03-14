@@ -17,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     private float moveDir;
     private Rigidbody2D myRB;
     private bool canJump;
-
     private void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
@@ -40,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         {
             canJump = false;
         }
+        
 
     }
 
