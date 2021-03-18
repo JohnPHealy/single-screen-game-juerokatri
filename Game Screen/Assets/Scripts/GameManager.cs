@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
         startPos = player.transform.position;
         score = 0;
         UpdateUI();
-        PauseGame();
+        UnpauseGame();
         
     }
 

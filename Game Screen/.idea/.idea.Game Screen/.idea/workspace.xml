@@ -26,6 +26,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -104,7 +105,9 @@
       <workItem from="1616083447771" duration="8000" />
       <workItem from="1616093238225" duration="784000" />
       <workItem from="1616094063848" duration="1478000" />
-      <workItem from="1616095927227" duration="302000" />
+      <workItem from="1616095927227" duration="800000" />
+      <workItem from="1616106987274" duration="1000" />
+      <workItem from="1616107679354" duration="634000" />
     </task>
     <servers />
   </component>
