@@ -25,6 +25,9 @@
       </set>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
@@ -93,6 +96,14 @@
       <workItem from="1616010520999" duration="480000" />
       <workItem from="1616062749126" duration="16000" />
       <workItem from="1616062979478" duration="363000" />
+      <workItem from="1616078153552" duration="2000" />
+      <workItem from="1616079504516" duration="154000" />
+      <workItem from="1616079724484" duration="2000" />
+      <workItem from="1616081155540" duration="1000" />
+      <workItem from="1616082580755" duration="21000" />
+      <workItem from="1616083447771" duration="8000" />
+      <workItem from="1616093238225" duration="784000" />
+      <workItem from="1616094063848" duration="1127000" />
     </task>
     <servers />
   </component>

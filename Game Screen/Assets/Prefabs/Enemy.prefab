@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 413831550771458616}
   - component: {fileID: 8466039832085035044}
+  - component: {fileID: 3411094000589891216}
   m_Layer: 3
-  m_Name: GroundCheck
+  m_Name: PlayerCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5612448416831568078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.128, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9025954915397303492}
@@ -38,15 +39,41 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5612448416831568078}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.017567456, y: -0.13541603}
+  serializedVersion: 2
+  m_Radius: 0.5455618
+--- !u!61 &3411094000589891216
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5612448416831568078}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010566831, y: -0.015182793}
+  m_Offset: {x: 0.01, y: 0.26942253}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.50461596
+  m_Size: {x: 0.7564831, y: 0.1917324}
+  m_EdgeRadius: 0
 --- !u!1 &9025954915397303481
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,6 +87,7 @@ GameObject:
   - component: {fileID: 9025954915397303482}
   - component: {fileID: 2063836750}
   - component: {fileID: 2063836751}
+  - component: {fileID: 7941506643025764666}
   m_Layer: 3
   m_Name: Enemy
   m_TagString: Untagged
@@ -96,9 +124,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.15077019}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.3492298
 --- !u!50 &9025954915397303482
 Rigidbody2D:
   serializedVersion: 4
@@ -135,7 +163,7 @@ MonoBehaviour:
   moveSpeed: 6
   maxSpeed: 6
   jumpForce: 0
-  groundCheck: {fileID: 8466039832085035044}
+  groundCheck: {fileID: 9025954915397303483}
   groundLayers:
     serializedVersion: 2
     m_Bits: 8
@@ -170,6 +198,23 @@ MonoBehaviour:
   patrolLeft: {fileID: 0}
   patrolRight: {fileID: 0}
   moveDir: 1
+--- !u!114 &7941506643025764666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9025954915397303481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c8b2770a5835a4896e6ecf288b131a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCheck: {fileID: 9025954915397303483}
+  playerLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  manager: {fileID: 0}
 --- !u!1 &9025954916793602645
 GameObject:
   m_ObjectHideFlags: 0
