@@ -32,6 +32,10 @@
       <option value="$PROJECT_DIR$/Assets/GameMaster.cs" />
       <option value="$PROJECT_DIR$/Assets/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerPos.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AIPatrol.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCombat.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pTa9z2A2lol0WYLT1ysnlcEe1n" />
@@ -85,6 +89,10 @@
       <workItem from="1615751016228" duration="391000" />
       <workItem from="1615802353944" duration="2040000" />
       <workItem from="1615805073744" duration="106000" />
+      <workItem from="1616009154055" duration="28000" />
+      <workItem from="1616010520999" duration="480000" />
+      <workItem from="1616062749126" duration="16000" />
+      <workItem from="1616062979478" duration="363000" />
     </task>
     <servers />
   </component>
