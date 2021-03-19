@@ -432,7 +432,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The End.
+  m_text: 'The End.
+
+    Click to Quit.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e69ffb11cb0035d418afcad113a559b5, type: 2}
   m_sharedMaterial: {fileID: 2433711381011402990, guid: e69ffb11cb0035d418afcad113a559b5, type: 2}

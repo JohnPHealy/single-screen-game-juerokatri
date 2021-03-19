@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private Vector3 startPos;
     private int score;
     public GameObject CompleteLevelUI;
+    public GameObject GotPageUI;
 
     private void Start()
     {
@@ -18,7 +19,6 @@ public class GameManager : MonoBehaviour
         score = 0;
         UpdateUI();
         UnpauseGame();
-        
     }
 
     public void RespawnPlayer()
@@ -52,5 +52,10 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel()
     {
         CompleteLevelUI.SetActive(true);
+    }
+
+    public void GotPage()
+    {
+        GotPageUI.SetActive(true);
     }
 }
