@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AIPatrol.cs" t="Include" />
+          <e p="EndTrigger.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="LevelComplete.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PlayerCombat.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />

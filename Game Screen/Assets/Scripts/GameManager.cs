@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private UnityEvent<string> addScore;
     private Vector3 startPos;
     private int score;
+    public GameObject CompleteLevelUI;
 
     private void Start()
     {
@@ -46,5 +47,10 @@ public class GameManager : MonoBehaviour
     public void UnpauseGame()
     {
         Time.timeScale = 1;
+    }
+
+    public void CompleteLevel()
+    {
+        CompleteLevelUI.SetActive(true);
     }
 }
